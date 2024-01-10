@@ -4,5 +4,5 @@ let passport = {
 };
 let objCopy = Object.assign({}, passport);
 objCopy.name = 'Ivan';
-console.log(passport);
-console.log(objCopy);
+console.log(passport.name);
+console.log(objCopy.name);
