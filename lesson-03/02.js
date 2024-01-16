@@ -1,9 +1,9 @@
 const words = ["яблоко", "банан", "апельсин", "манго", "киви"];
 
 (() => {
-    if (words.indexOf("апельсин")){
+    if (words.indexOf("апельсин") > -1){
         console.log("Ура! нашел")
-    } else {
+    } else if(words.indexOf("апельсин") === -1) {
         console.log("Придется поискать в другом магазине…")
     }
 })(words)
