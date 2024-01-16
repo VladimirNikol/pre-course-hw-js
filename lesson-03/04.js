@@ -60,7 +60,6 @@ const users = [
         address: '753 Cherry St'
     }
 ];
-
 console.log(
     users.filter((n) => {
         const remainder = n.id % 2
